@@ -1,0 +1,10 @@
+producto punto:
+tomas elementos de un vector
+[123] [456]
+
+multiplicar cada elemento con su elemento de otro vector
+1*4
+2*5
+3*6
+
+y sumar los productos
