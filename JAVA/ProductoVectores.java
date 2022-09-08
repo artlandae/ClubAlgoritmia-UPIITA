@@ -21,11 +21,6 @@ class ProductoVector{
         for (int i=0; i<=cantidad-1;i++){
             producto[i]=a[i]*b[i];
         }
-
-        System.out.println( Arrays.stream(producto).sum());
-
-
-        
+        System.out.println( Arrays.stream(producto).sum());        
     }
-
 }

@@ -10,11 +10,8 @@ for i in range(cantidad):
     a.append(numero) 
 
 for i in range(cantidad):
-    # Recuerda que range comenzará desde 0, así que imprimimos el número solicitado pero + 1
     numero = input(f"Ingresa el número {i + 1} del vector b: ")
-    # Convertir a entero, pues input regresa una cadena
     numero = int(numero)
-    # Lo agregamos al arreglo con append
     b.append(numero) 
 
 print(a,b)
